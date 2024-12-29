@@ -7,6 +7,12 @@ pipeline {
                 checkout scm
             }
         }
+        stage('Set Permissions') {
+            steps {
+                // Set execute permission
+                sh 'chmod +x list_files.sh'
+            }
+        }
         stage('Execute Script') {
             steps {
                 // Execute the bash script
