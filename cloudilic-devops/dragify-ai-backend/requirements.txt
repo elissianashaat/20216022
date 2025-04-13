@@ -1,0 +1,22 @@
+# Version numbers will be specified once the whole project is complete
+
+pandas
+pdfplumber
+chromadb
+docx2pdf
+openai
+fastapi
+uvicorn
+pydantic
+langdetect
+starlette
+openpyxl
+langchain
+langchain_openai
+requests
+google-api-python-client
+google-auth
+msal
+itsdangerous~=2.2.0
+qdrant-client
+sentence_transformers

@@ -1,0 +1,45 @@
+# Ignore virtual environment modules and environment variables
+venv/
+env/
+*.env
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Byte-compiled / cached files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignore uploaded files
+uploads/
+
+
+# Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore dependency management files (optional)
+poetry.lock
+Pipfile
+Pipfile.lock
+
+# Ignore FastAPI auto-generated OpenAPI files (if any)
+openapi.json
